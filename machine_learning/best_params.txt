@@ -1,0 +1,39 @@
+TfidfVectorizer best parameters:
+{
+    'tfidf__min_df': 2,
+    'tfidf__max_df': 0.5,
+    'tfidf__ngram_range': (1, 2),
+    'tfidf__sublinear_tf': True,
+    'tfidf__norm': 'l2',
+}
+
+
+SGDClassifier best parameters:
+{
+    'model__estimator__loss': 'hinge', 
+    'model__estimator__penalty': 'l2',
+    'model__estimator__alpha': 1e-5
+}
+
+
+LinearSVC best parameters:
+{
+    'model__estimator__penalty': 'l2',
+    'model__estimator__loss': 'squared_hinge', 
+    'model__estimator__C': 1.0
+}
+
+
+MultinomialNB best parameters:
+{
+    'model__estimator__alpha': 0.01, 
+    'model__estimator__fit_prior': True
+}
+
+
+PassiveAggressiveClassifier best parameters:
+{
+    'model__estimator__C': 0.1, 
+    'model__estimator__loss': 'hinge'
+}
+

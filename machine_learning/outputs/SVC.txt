@@ -1,0 +1,20 @@
+              precision    recall  f1-score   support
+
+    reliable       0.71      0.82      0.76      2500
+  unreliable       1.00      1.00      1.00      2500
+   political       0.60      0.63      0.61      2500
+   clickbait       0.53      0.64      0.58      2500
+      satire       0.70      0.75      0.72      2500
+        bias       0.73      0.67      0.70      2500
+  conspiracy       0.80      0.59      0.68      2500
+     junksci       0.73      0.84      0.78      2500
+        hate       0.75      0.63      0.69      2500
+       rumor       0.80      0.90      0.85      2500
+        fake       0.98      0.91      0.95      2500
+     unknown       0.51      0.43      0.47      2500
+
+    accuracy                           0.73     30000
+   macro avg       0.74      0.73      0.73     30000
+weighted avg       0.74      0.73      0.73     30000
+
+Accuracy: 73.41%

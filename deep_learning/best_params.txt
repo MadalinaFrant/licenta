@@ -1,0 +1,16 @@
+CNN:
+
+embedding_dim: 100
+filters: 128
+kernel_size: 4
+units: 64
+dropout: 0.2
+
+
+RNN:
+
+embedding_dim: 100
+LSTM_units: 64
+units: 64
+dropout: 0.2
+
